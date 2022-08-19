@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffead5;
+}
+
+header{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    background-color: #ffa995;
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    position: fixed;
+    z-index: 999999999;
+}
+
+header img{
+    width: 1.3rem;
+    margin: .2rem .8rem 0rem .8rem;
+}
+main{
+    position: relative;
+    top: 70px;
+}
+
+h1{
+    text-transform: lowercase;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em 0em 1em;
+}
+
+.container figure{
+    text-align: center;
+}
+
+.cosiness{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em 1em 0em;
+}
+
+.cosiness h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+}
+
+.cosiness p{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -6px;
+}
+
+.box{
+    line-height: 2em;
+    padding: 0.8em;
+}
+
+.box h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+}
+
+.box p{
+    width: 17rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.5em;
+    margin-top: .5rem;
+}
+
+.box-options{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.contador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    margin: 1.8rem 0rem 1.8rem 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.contador button{
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: transparent;
+    margin: 20px;
+    font-family: 'Nanum Gothic', sans-serif;  
+    cursor: pointer;
+}
+
+.btn-add{
+    height: 2.5rem;
+    margin-bottom: 2.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: #ffa995;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;  
+    cursor: pointer;
+}
